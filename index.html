@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoQuest: The Hyacinth Challenge</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="game-container">
+  <div id="start-screen" class="screen">
+    <button id="start-button">Start Game</button>
+  </div>
+  <div id="question-screen" class="screen hidden">
+    <div id="lives">❤️❤️❤️</div>
+    <div id="question"></div>
+    <div id="answers"></div>
+    <button id="next-button" class="hidden">Next</button>
+  </div>
+  <div id="win-screen" class="screen hidden">
+    <p>Congratulations! You've saved the waters from the invasive hyacinth!</p>
+    <button id="restart-button">Restart</button>
+  </div>
+  <div id="game-over-screen" class="screen hidden">
+    <p>Try Again? The hyacinths have overgrown!</p>
+    <button id="restart-button">Restart</button>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
